@@ -20,7 +20,22 @@ export default function Home() {
           </button>
         </nav>
       </header>
-      <section className="section-1"></section>
+      <section className="section-1">
+        <div className="content-box">
+          <h1>Cuidaremos de seu PET da forma que ele merece</h1>
+          <p>
+            Traga aqui seu animal para passar um dia em nosso SPA de PETS, onde
+            terá uma experiencia incrível.
+          </p>
+          <button className="schedule-button">Agende já</button>
+        </div>
+        <div className="background-box">
+          <div className="background">
+            <div className="blur"></div>
+            <img src="../../../public/assets/dog.png" alt="" />
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
